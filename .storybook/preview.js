@@ -6,4 +6,9 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+  docs: {
+    extractArgTypes: (tag) => {
+      console.log("tag", tag);
+    },
+  },
+};
